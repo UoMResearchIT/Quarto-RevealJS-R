@@ -4,9 +4,16 @@ on:
   push:
     branches:
       - development
+    ignore-paths:
+      - 'README.md'
+      - 'LICENSE'
 
 jobs:
   render:
+    permissions:
+      contents: write
+      pages: write
+
     runs-on: ubuntu-latest
 
     steps:
