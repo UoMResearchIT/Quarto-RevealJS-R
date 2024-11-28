@@ -1,0 +1,22 @@
+/*-- scss:defaults --*/
+$presentation-font-size-root: 28px;
+$presentation-h2-font-size: 1.4em;
+$code-block-font-size: 0.8em;
+
+/*-- scss:rules --*/
+.reveal li {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.reveal h4 {
+    margin: 0.8em 0 0.2em 0;
+}
+
+div.code-with-filename {
+    margin: 1em 0 1em 0;
+}
+
+div.cell-output {
+    margin: 0 0 1em 0;
+}

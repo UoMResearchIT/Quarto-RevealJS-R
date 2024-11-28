@@ -1,0 +1,47 @@
+---
+title: "R-Markdown Flavored Slides"
+subtitle: "Powered by Quarto + Reveal.js"
+institute: "ResearchIT, University of Manchester"
+author: Martin Herrerias Azcue
+date: 2024-11-28
+format:
+  revealjs:
+    theme: custom.scss
+    scrollable: true
+# filters:
+#   - include-code-files
+# eval: false
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+
+## Bullets
+
+When you click the **Render** button a document will be generated that includes:
+
+-   Content authored with markdown
+-   Output from executable code
+
+## Code
+
+When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+## Fancier Code Blocks
+
+```{r, filename='fake_script.R'}
+#| echo: true
+#| eval: false
+#| code-line-numbers: true
+
+# Multiply two numbers
+multiply <- function(a, b) {
+  return(a * b)
+}
+multiply(a = 6, b = 7)
+```
