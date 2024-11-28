@@ -11,6 +11,8 @@ format:
 # filters:
 #   - include-code-files
 # eval: false
+echo: true
+code-line-numbers: true
 ---
 
 ## Quarto
@@ -29,15 +31,14 @@ When you click the **Render** button a document will be generated that includes:
 When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
 
 ```{r}
+#| code-line-numbers: false
 1 + 1
 ```
 
 ## Fancier Code Blocks
 
 ```{r, filename='fake_script.R'}
-#| echo: true
 #| eval: false
-#| code-line-numbers: true
 
 # Multiply two numbers
 multiply <- function(a, b) {
