@@ -1,0 +1,21 @@
+---
+title: "Quarto + reveal.js"
+---
+
+```{r}
+#| eval: true
+#| echo: false
+# R code that should NOT be printed
+```
+
+## First slide
+
+Quarto is nice.
+
+## Second slide
+
+Reveal.js is nice.
+
+## Third slide
+
+Until they do weird stuff.
