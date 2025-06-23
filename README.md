@@ -5,7 +5,7 @@ This is a repo template to render ([quarto](https://quarto.org/)) markdown into 
 1. [Use this template](https://github.com/new?template_name=Quarto-RevealJS-R&template_owner=UoMResearchIT) to create a new repo, and clone locally
 1. On the repo settings > pages, select "Deploy from a branch", and choose `gh-pages`, `/(root)`.
 1. Add your content in `slides.qmd` (see the [quarto/revealjs](https://quarto.org/docs/presentations/revealjs/) docs for help)
-1. Push your changes. The `render-quarto.yml` action will call `quarto render` and publish the resulting HTML to `<https://uomresearchit.github.io/YOUR-REPO-NAME/>`
+1. Push your changes. The `render-quarto.yml` action will call `quarto render` and publish the resulting HTML to `<https://uomresearchit.github.io/YOUR-REPO-NAME/>`, e.g. <https://uomresearchit.github.io/Quarto-RevealJS-R>
 
 ## Notes
 
