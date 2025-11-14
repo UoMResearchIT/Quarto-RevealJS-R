@@ -10,3 +10,5 @@ This is a repo template to render ([quarto](https://quarto.org/)) markdown into 
 ## Notes
 
 The template, by default, allows the use of `R` inside code blocks (it installs `R`, `rmarkdown` and `knitr` as part of the [render-quarto.yml](.github/workflows/render-quarto.yml) build action), you will have to modify the action in order to use other languages (e.g. python).
+
+If you are just rendering code (but not executing it, e.g. to generate visualizations), you can safely remove the relevant steps from the build action. It will make the action run much faster.
